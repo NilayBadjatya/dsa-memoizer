@@ -1,0 +1,30 @@
+.dsa-injected-widget {
+  position: fixed;
+  top: 80px;
+  right: 32px;
+  z-index: 99999;
+  background: linear-gradient(135deg, #f8fafc 60%, #c7d2fe 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(60, 60, 130, 0.12);
+  padding: 20px 28px;
+  min-width: 220px;
+  max-width: 320px;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  border: 1.5px solid #a5b4fc;
+  transition: box-shadow 0.2s;
+}
+.dsa-injected-widget:hover {
+  box-shadow: 0 8px 32px rgba(60, 60, 130, 0.18);
+}
+.dsa-injected-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #3730a3;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.01em;
+}
+.dsa-injected-message {
+  font-size: 1rem;
+  color: #4b5563;
+  margin: 0;
+} 
